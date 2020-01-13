@@ -1,0 +1,70 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	background:  #011b3b;
+	font: 16px Helvetica, Arial, Sans-Serif; color: #636363; line-height: 24px;
+}
+#container {
+    width: 960px;
+    margin: 50px;
+}
+
+#nav{
+    float: left;
+    list-style: none;
+    margin-top:5px;
+}
+#nav li{
+    display: inline-block;
+}
+#nav li a{
+    color: white;
+    text-decoration:none;
+    padding: 5px 20px;
+    border:1px solid white;
+    font-family:"Roboto",sans-serif;
+    font-size: 15px;  
+}
+#nav li.active a{
+    border:5px solid white;
+}
+#nav li a:hover{
+    border: 5px solid white;
+}
+h1{
+    color: #4bb7e6;
+}
+h2{
+    color:  #b8b6b2;
+}
+.name-container{
+    color: white;
+    text-align: center;
+    margin:20px;
+}
+img{
+    width: 100%;
+    height:10%;
+}
+.not{
+    margin:20px;
+}
+.Github{
+    margin: 15px;
+}
+    #footer p#copyright {
+        font-size: 30px; float: left; margin: 0 0 0 30px; color: black;
+    }
+    #footer p#back-top {
+        font-size: 30px; float: right; margin: 0 30px 0 0;
+    }
+        #footer a {
+        color: #a12121; text-decoration: none;
+    }
+        #footer a:hover {
+            color: #671111;
+
+
+
